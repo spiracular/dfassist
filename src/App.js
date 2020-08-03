@@ -1,8 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ControlledTabs from './ControlledTabs'
 
-function App() {
+function DefaultApp() {
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +22,12 @@ function App() {
       </header>
     </div>
   );
+}
+
+function App(){
+  return (
+    <ControlledTabs />
+  )
 }
 
 export default App;
